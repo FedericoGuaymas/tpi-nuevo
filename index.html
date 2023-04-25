@@ -173,9 +173,8 @@
                 <h1>Nuestras Propiedades</h1>
 
                 <p>hermosa casa para 2 familias, con garage, hermoso patio y jardin.
-
-casa al frente con una cocina comedor con alacena y bajomesada, baño completo, dormitorio muy luminoso, amplio garage cubierto.
-otras caracteristicas lavadero compartido, gran parrilla de material, horno de barro, entrada independiente</p>
+                    casa al frente con una cocina comedor con alacena y bajomesada, baño completo, dormitorio muy luminoso, amplio garage cubierto.
+                    otras caracteristicas lavadero compartido, gran parrilla de material, horno de barro, entrada independiente</p>
                   <button type="button" class="btn btn-outline-primary">Ver más!</button>
               </div>
               <div class="col-xl-4 col-lg-12 col-md-2 col-sm-1 col-xs-1 ">
@@ -188,8 +187,7 @@ otras caracteristicas lavadero compartido, gran parrilla de material, horno de b
                  baño completo renovado recientemente con bañadera, cocina con comedor diario (hoy usado como escritorio), 
                  lavadero (se trata de un balcon aterrazado que fue techado lo que suma casi 6 mts cuadrados cubiertos).</p>
                   <button type="button" class="btn btn-outline-primary">Ver más!</button>       
-                </div>
-             </div>
+                </div>  
       </section>
      
       <title>Formulario contacto</title>
@@ -211,6 +209,26 @@ otras caracteristicas lavadero compartido, gran parrilla de material, horno de b
         </form>
         <script src="form.js"></script>
         
+        <div class="sugerencias">
+         <h1>Sugerencias</h1>
+    <br>
+    
+    <input type="text" placeholder="Escribeme" id="esc"><br><br> 
+
+    <h4><a href="javascript:genPDF()">Comprobante</a></h4>
+    <script type="text/javascript" src="jspdf.min.js"></script>
+    <script type="text/javascript">
+        function genPDF(){
+            var doc=new jsPDF();
+            let mensaje=document.getElementById('esc').value;
+            doc.text(20,20,mensaje);
+            doc.addPage();
+            doc.text(20,20,'Mi trabajo!!');
+            doc.save('Test.pdf');
+        }
+    </script>
+        </div>
+             
     <footer>
     <div class="row" id="container-footer">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-1">
