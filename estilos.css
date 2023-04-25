@@ -1,0 +1,167 @@
+#cuerpo { 
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    min-height: 100vh;  
+    min-width: 100vh;
+    background-color: #191a48;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;  
+    background-position: bottom;
+}
+#cuerpo{
+    height: 100vh;
+    min-width: 100%;
+    background-image: url(paisaje-analogico-ciudad-edificios-oscura.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;  
+    background-attachment:fixed;
+}
+
+#navbarkcontainer{
+    background-color: #2E2F8A;
+    color: rgb(255, 255, 255);
+    
+}
+
+#offcanvastittle{
+    background-color: #2E2F8A; /* color del titulo del menu offcanvas*/
+}
+
+#navbarkcontainer a{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    margin-left: 20px;
+}
+
+#offcanvasNavbar{
+    background-color: #191a48; /*color offcanvas solamente*/
+    color: white;
+}
+
+#transparent-container{
+padding-top: 75px;
+ background-color: #2E2F8A;
+ color: rgb(255, 255, 255);
+ text-align: center;
+ font-family: sans-serif;
+ font-style: bold;
+ margin: 10px;
+min-width: 100%;
+}   
+
+#container-presentacion{
+    height: 700px;
+    min-width: 100%;
+    background-color: #FEFCFB;
+    text-align: center;
+    min-width: 100%;
+}   
+    #Texto-pres{
+        height:100%;
+        background-color: transparent(97, 24, 24);
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: larger;
+        
+    }   
+        #Titulo-pres {
+            background-color:transparent;
+            position: relative;
+            top: 30%;
+
+        }
+            #Parrafo-pres {
+                background-color:transparent;
+                position: relative;
+                top: 40%;
+                font-size: larger;
+            }
+
+#container-personal{
+
+}   
+    #Texto-personal{
+        height:100%;
+        background-color: transparent(97, 24, 24);
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: larger;
+            }   
+        #Titulo-personal {
+            background-color:transparent;
+            position: relative;
+            top: 30%;
+        }
+            #Parrafo-personal {
+                background-color:transparent;
+                position: relative;
+                top: 40%;
+                font-size: larger;
+            }
+.buttons {
+background-color: #191a48;
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons a {
+    background-color: #191a48;
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #0B5ED7;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
+#container-footer {
+    height: 200px;
+    min-width: 100%;
+    background-color: #191a48;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+
+
+.equipoconfoto{
+    color: white;
+}
+
+
+.propiedadesconfoto{
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+    color: black !important;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 18px;
+    background-color: white;
+}
+
+.propiedadesconfoto h1{
+    padding-top: 5rem;
+    background: transparent !important;
+    color: black;
+}
+
+img {
+    max-width: 600px;
+    max-height: 400px;
+}
